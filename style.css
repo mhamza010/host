@@ -38,26 +38,27 @@ header {
     width: 100%;
     max-width: 1050px;
     height: 90px;
-    margin: 0 auto;
-    padding: 0 25px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left:392px;
 }
 .navbar-brand {
     display: flex;
     align-items: center;
 }
 .logo-text {
-    font-size: 49px;
+    font-size: 66px;
     font-weight: 800;
     letter-spacing: -2px;
     color: #111;
     line-height: 1;
     margin-left:-76px;
 }
-
+.navbar-button1{
+    display:none;
+}
 .navbar-menu {
     display: flex;
     align-items: center;
@@ -65,6 +66,7 @@ header {
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-left:291px;
 }
 .navbar-menu li {
     margin: 0;
@@ -92,7 +94,8 @@ header {
 .navbar-buttons {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 6px;
+    margin-right: -117px;
 }
 .btn-login,
 .btn-demo {
@@ -478,7 +481,7 @@ header {
     display: flex;
     gap: 47px;
     align-items: center;
-    transition: transform 0.5s ease;
+    transition: transform 0.2s ease;
 }
 .caros img {
     width: 300px;
@@ -508,6 +511,7 @@ header {
         height: auto;
         padding: 15px 20px;
         height: 106px;
+        margin-left:0px;
     }
     .navbar-menu {
         order: 3;
@@ -657,7 +661,7 @@ header {
     grid-row: 1;
     position: relative;
     z-index: 2;
-    margin: 0 0 -113px 12px;
+    margin: 0 0 -113px 3px;
     font-size: 16px;
     font-weight: 600;
     color: #000;
@@ -677,6 +681,7 @@ header {
     font-weight: 800;
     color: #111;
     text-align: left;
+    margin-top:-120px;
 }
 .growth-para {
     grid-column: 1;
@@ -691,6 +696,7 @@ header {
     line-height: 1.55;
     color: #333;
     text-align: left;
+    margin-top:-262px;
 }
 .growth > .hero-btn2 {
     grid-column: 1;
@@ -706,6 +712,7 @@ header {
     border-radius: 4px;
     font-size: 18px;
     font-weight: 600;
+    margin-top:-299px;
 }
 .automation,
 .unified,
@@ -1427,15 +1434,16 @@ header {
 }
 .footerbar {
     width: 100%;
-    min-height: 38px;
-    padding: 0 20px;
+    min-height: 55px;
+    padding: 0 320px;
     box-sizing: border-box;
     background-color: #f7735c;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 16px;
+    margin-top:-38px;
 }
 .footer-policies {
     text-align: right;
@@ -1842,7 +1850,7 @@ header {
     width: 100%;
     padding: 14px 0;
     font-size: 17px;
-    margin-left: 24px;
+    margin-left: 0px;
     text-align: left;
 }
 .navbar-menu.active {
@@ -1896,6 +1904,9 @@ padding-left: 27px;
     width: 332px;
 }
 .hero-buttons {
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
     justify-content: center;
     margin-left: 66px;
 }
@@ -1989,7 +2000,7 @@ padding-left: 27px;
     }
     .success-btn2{
         padding: 16px 28px;
-        margin-left: 74px;
+        margin-left: 0px;
     }
     .cta-section{
         display:flow;
@@ -2104,6 +2115,7 @@ padding-left: 27px;
     font-size: 18px;
     margin-left: -31px;
     width: 317px;
+    margin-top:0px;
 }
 .automation {
     margin-left:-31px;
@@ -2240,6 +2252,10 @@ padding-left: 27px;
     flex-direction:column;
     gap:30px;
 }
+.navbar-button1{
+    display:inline-block;
+    gap:30px;
+}
 }
 
 .slider {
@@ -2261,6 +2277,7 @@ padding-left: 27px;
     flex-shrink: 0;
     box-sizing: border-box;
 }
+
 @media (max-width: 768px) {
     .slider {
         grid-column: 1;

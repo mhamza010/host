@@ -35,7 +35,7 @@ setInterval(function(){
 
     
     caros.style.transition = "transform 0.5s";
-    caros.style.transform = "translateX(-300px)";
+    caros.style.transform = "translateX(0)";
 
     setTimeout(function(){
 
