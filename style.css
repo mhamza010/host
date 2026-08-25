@@ -994,7 +994,7 @@ header {
 }
 .solution-btn2:hover {
     background-color: #ffe94d;
-} */
+} 
 .success {
     position: relative;
     width: 100%;
@@ -2261,7 +2261,6 @@ padding-left: 27px;
     flex-shrink: 0;
     box-sizing: border-box;
 }
-
 @media (max-width: 768px) {
     .slider {
         grid-column: 1;
