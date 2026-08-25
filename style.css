@@ -1014,6 +1014,7 @@ header {
     font-size: 14px;
     font-weight: 600;
     color: #111;
+    text-align:center;
     text-decoration: underline;
     text-decoration-color: #000000;
     
@@ -1319,7 +1320,7 @@ header {
     max-width: 1200px;
     min-height: 380px;
     margin: 0 auto;
-    padding: 45px 35px;
+    padding: 60px 15px;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1574,7 +1575,7 @@ header {
     font-size: 20px;
 }
 .success .small-title{
-    text-align: left;
+    text-align: center;
     margin-left: -5px;
     font-size: 12px;
     margin-bottom:23px;
@@ -1926,7 +1927,6 @@ padding-left: 27px;
         font-size: 40px;
         width: 350px;
         margin-top:25px;
-    
     }
     .solution-btn2{
         margin-left:0px !important;
@@ -1944,8 +1944,8 @@ padding-left: 27px;
         width: 343px;
     }
     .growth.growth > .hero-btn2{
-        margin-bottom: 42px;
-        margin-left: -31px;
+    margin-bottom: 42px;
+    margin-left: -31px;
     border-radius: 4px;
     font-size: 18px;
     font-weight: 500;
@@ -1966,6 +1966,7 @@ padding-left: 27px;
     .success .small-title{
         font-size:16px;
         font-weight:400;
+        text-align:center;
     }
     .success-heading{
     text-align:center;
