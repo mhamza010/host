@@ -2268,6 +2268,14 @@ padding-left: 27px;
     height:48px;
     border-radius:6px;
 }
+.testimonial .small-title{
+    grid-column:1;
+    grid-row:2;
+}
+.testimonial-heading {
+    margin-bottom: -65px;
+    margin-top: 34px;
+    }
 }
 
 .slider {
